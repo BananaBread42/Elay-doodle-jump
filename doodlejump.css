@@ -1,25 +1,11 @@
-body {
+body{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    background-color: #e6f7ff; /* light background */
-    margin: 0;
 }
-
-h1 {
-    margin-top: 20px;
-    font-size: 40px;
+body{
+    text-align: center;
 }
-
-#board {
-    width: 400px;
-    height: 600px;
-    display: block;
-    margin: 20px auto;
-    
+#board{
+    /* background-color: green; */
     background-image: url("./doodlejumpbg.png");
-    background-size: cover;       /* fills nicely */
-    background-position: center;  /* keeps it centered */
-    
-    border: 2px solid black;
-    border-radius: 10px;
 }
